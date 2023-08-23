@@ -54,7 +54,7 @@ STATIC_ROOT = '/var/www/static'
 ################################################################
 
 # False if not in os.environ
-DEBUG = env.bool('DEBUG', default=False)
+DEBUG = env.bool('DEBUG', default=True)
 
 TEMPLATES[0]['OPTIONS']['debug'] = DEBUG
 
